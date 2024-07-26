@@ -21,5 +21,9 @@
     },
     // Turn off tsc task auto detection since we have the necessary tasks as npm scripts
     "typescript.tsc.autoDetect": "off",
-    "typescript.tsdk": "node_modules/typescript/lib"
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "gitlens.views.formats.stashes.label": "${message}",
+    "inlineChat.experimental.textButtons": true,
+    "inlineChat.finishOnType": true,
+    "inlineChat.mode": "live"
 }
