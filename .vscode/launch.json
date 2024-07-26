@@ -5,6 +5,7 @@
 {
     "version": "0.2.0",
     "configurations": [
+
         {},
         {
             "args": [
@@ -22,7 +23,7 @@
             "name": "Docker .NET Attach (Preview)",
             "type": "docker",
             "request": "attach",
-            "platform": "netCore",
+            "platform": "netCore"
             "sourceFileMap": {
                 "/src": "${workspaceFolder}"
             }
@@ -80,7 +81,7 @@
                 "--remote-debugging-port=9222"
             ],
             "url": "c:\\Users\\brian\\.vscode\\extensions\\ms-edgedevtools.vscode-edge-devtools-2.1.5\\out\\startpage\\index.html", // Provide your project's url to finish configuring
-            "presentation": {
+            "presentation": {}
                 "hidden": true
             }
         },
