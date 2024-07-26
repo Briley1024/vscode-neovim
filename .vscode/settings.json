@@ -11,9 +11,9 @@
         "source.fixAll": "explicit",
         "source.fixAll.eslint": "explicit"
     },
-    "eslint.experimental.useFlatConfig": false,
+    "eslint.experimental.useFlatConfig": true,
     "files.exclude": {
-        "out": false // set this to true to hide the "out" folder with the compiled JS files
+        "out": true
     },
     "prettier.enable": true,
     "search.exclude": {
